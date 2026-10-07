@@ -1,0 +1,9 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#cadastrar,
+#editar,
+#deletar {
+    scroll-margin-top: 1.5rem;
+}
