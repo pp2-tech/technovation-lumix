@@ -98,7 +98,7 @@ function Home() {
         <nav aria-label="Atalhos de gestão" className="home-nav">
           <ul>
             {atalhos.map((atalho) => (
-              <li key={atalho.caminho}>
+              <li key={atalho.caminho} class="z-depth-1">
                 <Link to={atalho.caminho}>
                   <span className="home-nav-category">{atalho.categoria}</span>
                   <span className="home-nav-title">{atalho.titulo}</span>
